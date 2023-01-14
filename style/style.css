@@ -41,3 +41,40 @@ header{
     font-size: 18px;
     color: #424242;
 }
+
+/* -----Heroarea Start ----- */
+.hero{
+    background-color: #FFF4E7;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+.heroContent{
+    text-align: center;
+}
+.heroContent h1{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    color: #131313;
+   
+}
+.heroContent p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin: 30px 0;
+}
+.btnPrimary{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #FF900E;
+    border-radius: 8px;
+    padding: 20px 24px;
+    display: inline-block;
+}
+.heroImage{
+    border-radius: 8px;
+    margin-top: 50px;
+}
