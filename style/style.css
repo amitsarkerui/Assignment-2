@@ -78,3 +78,46 @@ header{
     border-radius: 8px;
     margin-top: 50px;
 }
+/* ----- Features Start ------ */
+.features{
+    margin-top: 100px;
+}
+.featuresWrapper{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+.featuresImages{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 24px;
+    column-gap: 24px;
+}
+.featuresContent{
+    width: 50%;
+}
+.featuresContent h2{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    }
+.headingLight{
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+.headingOrange{
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+} 
+.featuresContent p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-top: 24px;
+    margin-bottom: 30px;
+}  
