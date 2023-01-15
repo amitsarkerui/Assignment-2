@@ -42,7 +42,7 @@ header{
     color: #424242;
 }
 
-/* -----Heroarea Start ----- */
+/* -----Hero Area Start ----- */
 .hero{
     background-color: #FFF4E7;
     padding-top: 100px;
@@ -186,6 +186,7 @@ header{
     padding: 46px 0;
     border: 2px solid #FF900E;
     border-radius: 8px;
+    transition: transform .6s ease-in-out;
     /* display: inline-block; */
 }
 .factWrapper{
@@ -202,6 +203,9 @@ header{
     font-weight: 600;
     font-size: 20px;
     color: #727272;
+}
+.singleFact:hover{
+    transform: scale(1.2);
 }
 /* -----team start------- */
 .ourTeam{
@@ -231,8 +235,13 @@ header{
     color: #000000;
     text-align: center;
 }
-
-
+.teamimg{
+    filter: grayscale(100%);
+    transition: filter .3s ease-in-out;
+}
+.teamimg:hover{
+    filter: none;
+}
 /* ----- Sponcers Start ----- */
 .sponcers{
     margin-top: 130px;
@@ -247,6 +256,11 @@ header{
 }
 .sponcersImage{
     filter: grayscale(100%);
+    transition: 0.2 all;
+    transition: filter .3s ease-in-out;
+}
+.sponcersImage:hover{
+    filter: none;
 }
 /* ----- Footer Start------ */
 footer{
