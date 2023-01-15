@@ -203,6 +203,36 @@ header{
     font-size: 20px;
     color: #727272;
 }
+/* -----team start------- */
+.ourTeam{
+    margin-top: 130px;
+}
+.mumberWrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.teamContent h2{
+    text-align: center;
+}
+.teamContent p{
+    text-align: center;
+}
+.memberName{
+    font-weight: 600;
+    font-size: 24px;
+    color: #131313;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+.mamberTitle{
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+}
+
+
 /* ----- Sponcers Start ----- */
 .sponcers{
     margin-top: 130px;
