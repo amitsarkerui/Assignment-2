@@ -322,4 +322,30 @@ footer{
         border-radius: 8px;
         margin-top: 30px;
     }
+    .featuresWrapper{
+        flex-direction: column;
+    }
+    .featuresImages{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 24px;
+        justify-items: center;
+    }
+    .featuresContent{
+        width: 100%;
+    }
+    .servicesWrapper{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .servicesImage img{
+        max-width: 100%;
+    }
+    .experience{
+        margin-top: 20px;
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
 }
