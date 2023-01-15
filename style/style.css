@@ -348,4 +348,10 @@ footer{
         top: 0px;
         left: 0px;
     }
+    .factWrapper, .mumberWrapper, .sponcersWrapper{
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        row-gap: 20px;
+    }
+    
 }
