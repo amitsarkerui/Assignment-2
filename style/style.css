@@ -203,3 +203,30 @@ header{
     font-size: 20px;
     color: #727272;
 }
+/* ----- Sponcers Start ----- */
+.sponcers{
+    margin-top: 130px;
+}
+.sponcersContent{
+    text-align: center;
+}
+.sponcersWrapper{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.sponcersImage{
+    filter: grayscale(100%);
+}
+/* ----- Footer Start------ */
+footer{
+    margin-top: 130px;
+    margin-bottom: 200px;
+}
+.footerInfo
+{
+    background-color: #FFF4E7;
+    text-align: center;
+    padding: 40px 0;
+    border-radius: 8px;
+}
