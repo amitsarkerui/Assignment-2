@@ -77,6 +77,10 @@ header{
 .heroImage{
     border-radius: 8px;
     margin-top: 50px;
+    text-align: center;
+}
+.heroImage img{
+    max-width: 100%;
 }
 /* ----- Features Start ------ */
 .features{
@@ -275,4 +279,47 @@ footer{
     text-align: center;
     padding: 40px 0;
     border-radius: 8px;
+}
+
+.hide{
+    display: none;
+}
+
+
+/* ---------- Responsive Design---------- */
+
+/* ----------
+    Small Devices
+            -------- */
+@media screen and (max-width:576px) {
+    .container{
+        padding: 0 40px;
+    }
+    .nav{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .navLinks
+    {
+        flex-direction: column;
+        gap: 8px;
+        justify-content: center;
+        align-items: center;
+    }
+    .header{
+        padding-top: 20px;
+    }
+    .hero{
+        padding-top: 20px;
+    }
+    .heroContent h1{
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 120%;
+    }
+    .heroImage{
+        text-align: center;
+        border-radius: 8px;
+        margin-top: 30px;
+    }
 }
