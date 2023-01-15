@@ -175,3 +175,31 @@ header{
     font-weight: 500;
     font-size: 25px;
 }
+
+/* ----- Fact Start----- */
+.facts{
+    margin-top: 130px;
+}
+.singleFact{
+    text-align: center;
+    width: 240px;
+    padding: 46px 0;
+    border: 2px solid #FF900E;
+    border-radius: 8px;
+    /* display: inline-block; */
+}
+.factWrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.singleFact h3{
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    margin: 8px 0;
+}
+.singleFact p{
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
